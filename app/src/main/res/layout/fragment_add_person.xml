@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SinglePersonFragment">
+
+    <TextView
+        android:id="@+id/textview_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:id="@+id/editText_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:inputType="text" />
+
+
+
+    <Spinner
+        android:id="@+id/spinner_day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/dayOfBirth" />
+
+    <Spinner
+        android:id="@+id/spinner_month"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/monthOfBirth" />
+
+    <EditText
+        android:id="@+id/editText_year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Year of birth"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/textView_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/button_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back" />
+
+
+    <Button
+        android:id="@+id/button_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add" />
+
+
+</LinearLayout>
